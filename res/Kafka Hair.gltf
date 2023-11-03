@@ -1,0 +1,151 @@
+{
+	"asset": {
+		"generator": "Khronos glTF Blender I/O v3.6.27",
+		"version": "2.0"
+	},
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Hair",
+			"rotation": [
+				0,
+				-0.7071068286895752,
+				0,
+				0.7071068286895752
+			]
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"name": "Hair",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Hair",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 0,
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TEXCOORD_0": 3
+					},
+					"indices": 4,
+					"material": 0
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "diffuse",
+			"uri": "diffuse_hair.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 4194,
+			"normalized": true,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 4194,
+			"max": [
+				0.26101449131965637,
+				1.058029055595398,
+				0.5905888080596924
+			],
+			"min": [
+				-0.007524195127189159,
+				0.6765645742416382,
+				0.20296819508075714
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 4194,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 4194,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 11319,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 33552,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50328,
+			"byteOffset": 33552,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50328,
+			"byteOffset": 83880,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 33552,
+			"byteOffset": 134208,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 22638,
+			"byteOffset": 167760,
+			"target": 34963
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 190400,
+			"uri": "Kafka Hair.bin"
+		}
+	]
+}

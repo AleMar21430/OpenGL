@@ -1,7 +1,7 @@
 #include"Model.h"
 
-unsigned int width = 1920;
-unsigned int height = 1080;
+unsigned int width = 1080;
+unsigned int height = 1920;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
 	glViewport(0, 0, width, height);
@@ -52,7 +52,12 @@ int main() {
 	glDepthFunc(GL_LESS);
 
 	Camera camera(width, height, vec3(0.0f, 0.8f, 3.0f));
-	Model trees("./res/koharu.gltf");
+
+	Model kafkaA("./res/Kafka Body.gltf");
+	Model kafkaB("./res/Kafka Coat.gltf");
+	Model kafkaC("./res/Kafka Face.gltf");
+	Model kafkaD("./res/Kafka Hair.gltf");
+	Model kafkaE("./res/Kafka Sword.gltf");
 
 	while (!glfwWindowShouldClose(window)) {
 		glClearColor(0.85f, 0.85f, 0.90f, 1.0f);
@@ -63,7 +68,11 @@ int main() {
 		camera.f_inputHandler(window);
 		camera.f_update(45.0f, 0.1f, 100.0f);
 
-		trees.f_render(shaderProgram, camera);
+		kafkaA.f_render(shaderProgram, camera);
+		kafkaB.f_render(shaderProgram, camera);
+		kafkaC.f_render(shaderProgram, camera);
+		kafkaD.f_render(shaderProgram, camera);
+		kafkaE.f_render(shaderProgram, camera);
 
 		glfwSwapBuffers(window);
 		glfwPollEvents();

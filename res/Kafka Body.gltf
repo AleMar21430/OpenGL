@@ -1,0 +1,177 @@
+{
+	"asset": {
+		"generator": "Khronos glTF Blender I/O v3.6.27",
+		"version": "2.0"
+	},
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Body",
+			"rotation": [
+				0,
+				-0.7071068286895752,
+				0,
+				0.7071068286895752
+			]
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"name": "Body",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Body",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 0,
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TEXCOORD_0": 3,
+						"TEXCOORD_1": 4,
+						"TEXCOORD_2": 5
+					},
+					"indices": 6,
+					"material": 0
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "diffuse",
+			"uri": "diffuse_body.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 6197,
+			"normalized": true,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 6197,
+			"max": [
+				0.38974419236183167,
+				0.9145984649658203,
+				0.7484890818595886
+			],
+			"min": [
+				-0.3150489926338196,
+				-0.0006517978617921472,
+				-0.14692264795303345
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 6197,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 6197,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5126,
+			"count": 6197,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 5,
+			"componentType": 5126,
+			"count": 6197,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 6,
+			"componentType": 5123,
+			"count": 25461,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 49576,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 74364,
+			"byteOffset": 49576,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 74364,
+			"byteOffset": 123940,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 49576,
+			"byteOffset": 198304,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 49576,
+			"byteOffset": 247880,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 49576,
+			"byteOffset": 297456,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 50922,
+			"byteOffset": 347032,
+			"target": 34963
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 397956,
+			"uri": "Kafka Body.bin"
+		}
+	]
+}

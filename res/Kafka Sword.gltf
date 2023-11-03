@@ -1,0 +1,151 @@
+{
+	"asset": {
+		"generator": "Khronos glTF Blender I/O v3.6.27",
+		"version": "2.0"
+	},
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Sword",
+			"rotation": [
+				0,
+				-0.7071068286895752,
+				0,
+				0.7071068286895752
+			]
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"name": "Sword",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Sword",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 0,
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TEXCOORD_0": 3
+					},
+					"indices": 4,
+					"material": 0
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "diffuse",
+			"uri": "diffuse_sword.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 1421,
+			"normalized": true,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 1421,
+			"max": [
+				0.42744895815849304,
+				0.5879210233688354,
+				0.6349519491195679
+			],
+			"min": [
+				0.30813896656036377,
+				0.31757864356040955,
+				-0.7230594754219055
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 1421,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 1421,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5123,
+			"count": 3624,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 11368,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17052,
+			"byteOffset": 11368,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 17052,
+			"byteOffset": 28420,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 11368,
+			"byteOffset": 45472,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 7248,
+			"byteOffset": 56840,
+			"target": 34963
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 64088,
+			"uri": "Kafka Sword.bin"
+		}
+	]
+}

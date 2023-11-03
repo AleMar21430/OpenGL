@@ -62,7 +62,9 @@ inline string get_file_contents(const char* filename) {
 		in.close();
 		return(contents);
 	}
-	throw(errno);
+	else {
+		cout << filename << "  NOT FOUND";
+	}
 }
 
 inline vector<vec2> groupFloatsVec2(vector<float> floatVec) {

@@ -1,0 +1,164 @@
+{
+	"asset": {
+		"generator": "Khronos glTF Blender I/O v3.6.27",
+		"version": "2.0"
+	},
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0,
+			"name": "Coat",
+			"rotation": [
+				0,
+				-0.7071068286895752,
+				0,
+				0.7071068286895752
+			]
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"name": "Coat",
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Coat",
+			"primitives": [
+				{
+					"attributes": {
+						"COLOR_0": 0,
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TEXCOORD_0": 3,
+						"TEXCOORD_1": 4
+					},
+					"indices": 5,
+					"material": 0
+				}
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	],
+	"images": [
+		{
+			"mimeType": "image/png",
+			"name": "diffuse",
+			"uri": "diffuse_coat.png"
+		}
+	],
+	"accessors": [
+		{
+			"bufferView": 0,
+			"componentType": 5123,
+			"count": 5364,
+			"normalized": true,
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 5364,
+			"max": [
+				0.3366674780845642,
+				0.8877533674240112,
+				0.7099552154541016
+			],
+			"min": [
+				-0.3041975200176239,
+				0.1443815529346466,
+				-0.21103955805301666
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 5364,
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 5364,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"componentType": 5126,
+			"count": 5364,
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 5,
+			"componentType": 5123,
+			"count": 16083,
+			"type": "SCALAR"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 42912,
+			"byteOffset": 0,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64368,
+			"byteOffset": 42912,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 64368,
+			"byteOffset": 107280,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 42912,
+			"byteOffset": 171648,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 42912,
+			"byteOffset": 214560,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 32166,
+			"byteOffset": 257472,
+			"target": 34963
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 289640,
+			"uri": "Kafka Coat.bin"
+		}
+	]
+}
