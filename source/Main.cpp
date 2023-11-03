@@ -35,6 +35,15 @@ int main() {
 		return -1;
 	}
 
+	Image icon = Image();
+	if (icon.f_load("./res/Icon.png")) {
+		GLFWimage image_icon;
+		image_icon.width = icon.width;
+		image_icon.height = icon.height;
+		image_icon.pixels = icon.data;
+		glfwSetWindowIcon(window, 1, &image_icon);
+	}
+
 	glfwMakeContextCurrent(window);
 	gladLoadGL();
 
