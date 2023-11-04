@@ -12,5 +12,5 @@ uniform sampler2D specular0;
 uniform vec3 camPos;
 
 void main() {
-	fragColor = texture(diffuse0, vertTexCoord);
+	fragColor = vec4(vertNormal, 1);
 }
